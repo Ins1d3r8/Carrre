@@ -33,10 +33,30 @@ header h1 {
 
 .cartao {
     width: 31%;
+    height: 30%;
     display: inline-block;
     margin: 1% 1%;
     padding: 15px;
 }
+
+.produto-imagem2 {
+    padding-top: 88%;
+    height: 300px !important;
+    max-height: 300px;
+    border-radius: 25px;
+    width: 357.19px;
+    background-size: 357.19 300px;
+}
+
+.produto-imagem3 {
+    padding-top: 88%;
+    height: 300px !important;
+    max-height: 300px;
+    border-radius: 25px;
+    width: 357.19px;
+    background-size: 357.19 300px;
+}
+
 
 .produto-imagem {
     height: 300px;
@@ -84,7 +104,7 @@ header h1 {
 }
 
 #img-4 {
-    background-image: url(/imgs/tenis4.jpg);
+    background-image: url(/imgs/construcao-04.jpg);
 }
 
 #comprar-f{
@@ -100,11 +120,11 @@ header h1 {
 }
 
 #img-5 {
-    background-image: url(/imgs/tenis5.jpg);
+    background-image: url(/imgs/excell-05.jpg);
 }
 
 #img-6 {
-    background-image: url(/imgs/tenis6.jpg);
+    background-image: url(/imgs/mecanico-06.jpg);
 }
 
 .produtos-container {
