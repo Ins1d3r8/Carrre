@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Cabeçalho*/
+header {
+    background-color: #0048ff;
+    color: #fff;
+    padding: 25px;
+    border-bottom: 3px solid #001aff;
+    text-align: center;
+}
+
+header h1 {
+    height: 84px;
+    margin-top: 30px;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Grid de Produtos*/
+.container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.cartao {
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.produto-imagem {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1 {
+    background-image: url(/imgs/comput-01.jpg);
+}
+
+#tec-cursos {
+    color: blue;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#tec-gratui {
+    color: #001aff;
+    padding-top: 7px;
+    padding-left: 6px;
+}
+
+#comprar {
+    text-decoration: none;
+    background-color: #001aff; 
+    text-align: center;
+    color: #fff;
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    border-radius: 15px;
+    padding-top: 3px;
+}
+
+#img-2 {
+    background-image: url(/imgs/admin-02.jpg);
+}
+
+#img-3 {
+    background-image: url(/imgs/logist-03.jpg);
+}
+
+#img-4 {
+    background-image: url(/imgs/tenis4.jpg);
+}
+
+#comprar-f{
+    text-decoration: none;
+    background-color: #001aff; 
+    text-align: center;
+    color: #fff;
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    border-radius: 15px;
+    padding-top: 3px;
+}
+
+#img-5 {
+    background-image: url(/imgs/tenis5.jpg);
+}
+
+#img-6 {
+    background-image: url(/imgs/tenis6.jpg);
+}
+
+.produtos-container {
+    max-width: 1200vh;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: blue;
+    color: #eee;
+    text-align: center;
+    padding: 80px;
+    border-top: 3px solid #00aeff;
+}
