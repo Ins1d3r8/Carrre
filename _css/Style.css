@@ -83,14 +83,13 @@ header h1 {
     padding-left: 6px;
 }
 
-#comprar {
+.comprar {
     text-decoration: none;
     background-color: #001aff; 
     text-align: center;
     color: #fff;
-    width: 150px;
-    height: 30px;
-    position: absolute;
+    width: 200px;
+    height: 80px;
     border-radius: 15px;
     padding-top: 3px;
 }
@@ -107,14 +106,13 @@ header h1 {
     background-image: url(/imgs/construcao-04.jpg);
 }
 
-#comprar-f{
+.comprar-f{
     text-decoration: none;
     background-color: #001aff; 
     text-align: center;
     color: #fff;
     width: 150px;
     height: 30px;
-    position: absolute;
     border-radius: 15px;
     padding-top: 3px;
 }
@@ -126,6 +124,13 @@ header h1 {
 #img-6 {
     background-image: url(/imgs/mecanico-06.jpg);
 }
+
+h3 {
+    margin-bottom: 10px;
+    border-left: 5px solid #0f2664;
+}
+
+
 
 .produtos-container {
     max-width: 1200vh;
